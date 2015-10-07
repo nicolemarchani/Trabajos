@@ -63,7 +63,7 @@ int main(){
     {
         for(int j=0; j<z; ++j)
         {
-            cout<<mat2C[i][j]<<" ";
+            cout<<matC[i][j]<<" ";
         }
         cout<<endl;
     }
