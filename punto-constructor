@@ -1,0 +1,27 @@
+class Punto{
+private:
+    double x, y;
+public:
+    Punto(){
+        x = 0.0;
+        y = 0.0;
+    }
+    Punto(double nuevo_x, double nuevo_y) {
+        x = nuevo_x;
+        y = nuevo_y;
+    }
+    double getx(){
+        return x;
+    }
+    double gety(){
+        return y;
+    }
+    void setx(double j){
+        x=j;
+    }
+    void sety(double i){
+        y=i;
+    }
+    void impr;()
+
+};
