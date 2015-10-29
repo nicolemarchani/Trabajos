@@ -1,0 +1,33 @@
+#include<iostream>
+#include<math.h>
+#include "punto.h"
+#include "vector.h"
+
+
+using namespace std;
+void Vector::distancia(){
+        float a;
+        a=pow(start.getx()-end.getx(),2)+pow(start.gety()-end.gety(),2);
+        a=sqrt(a);
+        cout<<a<<endl;
+}
+ void punto::impr(){
+    cout<<"la coordenada del punto x: "<<getx()<<endl;
+    cout<<"la coordenada del punto y: "<<gety()<<endl;
+}
+
+
+
+
+
+
+int main(){
+    Vector principal(2.8,4.5,5.23,1.6);
+
+
+    recta.distancia();
+
+
+return 0;
+
+}
