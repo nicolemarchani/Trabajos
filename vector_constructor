@@ -1,0 +1,21 @@
+class Vector{
+private:
+    Punto start;
+    Punto end;
+public:
+    Vector(double a, double b, double c, double d){
+        start.setx(a);
+        start.sety(b);
+        end.setx(c);
+        end.sety(d);
+
+    }
+
+
+    void distancia();
+
+
+
+};
+
+
