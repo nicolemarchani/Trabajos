@@ -11,7 +11,7 @@ void caratula()
 }
 int main()
 {
-	Stack<int> mycola;
+	Stack<int> mypila;
 	int opcion;
 	int salida =5;
 	while(salida != 0)
@@ -27,14 +27,14 @@ int main()
 			{cout << "Ingrese el dato "<< i <<endl;
 			int n;
 			cin>>n;		
-			mycola.push(n);}
+			mypila.push(n);}
 		cout << "la nueva pila es " <<endl;
-		mycola.imprimir();}
+		mypila.imprimir();}
 	if(opcion ==2)	
 		{cout << "el dato es:  ";
-		mycola.pop();
+		mypila.pop();
 		cout << "la pila acumulada es:  " <<endl;
-		mycola.imprimir();}
+		mypila.imprimir();}
 	cout << "Que desea hacer ahora? "<<endl;
 	cout << "1: volver al menu    0: salir"<<endl;
 	cin >> salida;}}
