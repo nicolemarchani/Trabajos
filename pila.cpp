@@ -3,7 +3,7 @@
 using namespace std;
 
 template<typename T>
-class Pila{
+class Stack{
    private:
       vector<T> container;
    public:
@@ -16,8 +16,8 @@ class Pila{
       vector<T> getContainer(){
 	 return container;
       }
-      Pila<T> operator+ (Pila<T> stack2){
-	 Pila<T> stack3;
+      Pila<T> operator+ (Stack<T> stack2){
+	 Stack<T> stack3;
 	 vector<T>vec1(container);
 	 vector<T>vec2(stack2.getContainer());
 	 for(int i=0;i<vec1.size();i++){
